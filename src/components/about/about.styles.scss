@@ -1,0 +1,19 @@
+.icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .icon-mb {
+    margin-bottom: 12rem;
+  }
+  .name-mt{
+    top: 12rem;
+  }
+  .list-group-item.active {
+    color: #F0FFFF;
+    background-color:#FF6347;
+    border-color: #FF6347;
+  }
+  .list-group {
+    --bs-list-group-border-width: none;
+  }
