@@ -2,9 +2,22 @@
     margin-top: 12rem;
   }
   .custom-vh-70 {
-    height: 70vh;
+    height: 67vh;
   }
 
   .custom-no-border {
     border: none;
+  }
+  .footer-mb {
+    margin-bottom: 12rem;
+  }
+  img:hover {-webkit-filter: brightness(50%); }
+  
+  .card-body:hover h5{
+    color: #FF6347
+  }
+
+  #list-item-1:hover .hover-effect {
+    color: #FF6347
+
   }
