@@ -6,7 +6,9 @@ import "./about.styles.scss";
 const About = () => {
   return (
     <div className="about-container sticky-top name-mt">
-      <h1 className="fw-bold">Michael Sun</h1>
+      <h1 className="fw-bold">
+        Michael <span id="full-name">Sun</span>
+      </h1>
       <h5 className="mb-4">Frontend Developer</h5>
       <div className="col-6 text-body-secondary">
         I bring simple, engaging, and accessible digital experiences.
