@@ -5,7 +5,7 @@ import { ReactComponent as EmailIcon } from "../../assets/square-envelope-solid.
 import "./about.styles.scss";
 const About = () => {
   return (
-    <div className="about-container sticky-top name-mt">
+    <div className="about-container sticky-top name-mt mb-3">
       <h1 className="fw-bold">
         Michael <span id="full-name">Sun</span>
       </h1>
@@ -23,8 +23,11 @@ const About = () => {
         <a class="list-group-item list-group-item-action" href="#list-item-3">
           PROJECTS
         </a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">
+          PDF RESUME
+        </a>
       </div>
-      <div className="col-6 fixed-bottom icon-mb">
+      <div className="col-sm-6 m-5">
         <div class="d-flex justify-content-evenly">
           <a
             href="https://www.linkedin.com/in/michael-sun-4978937a/"

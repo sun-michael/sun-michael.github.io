@@ -310,6 +310,20 @@ const Details = () => {
             </div>
           </div>
         </div>
+        <div className="">
+          <div class="card mb-3 custom-no-border" id="list-item-4">
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <a
+                class="btn btn-outline-primary"
+                type="button"
+                href="https://sun-michael.github.io/portfolio/resume.pdf"
+                target="_blank"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
 
         <div className="footer-mb">
           <div class="card mb-3 custom-no-border">

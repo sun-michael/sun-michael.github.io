@@ -4,6 +4,11 @@
   .custom-vh-70 {
     height: 67vh;
   }
+  @media (max-width: 720px) {
+    .custom-vh-70 {
+        height: 10vh;
+    }
+}
 
   .custom-no-border {
     border: none;
