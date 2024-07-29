@@ -6,7 +6,7 @@ import "./home.styles.scss";
 const Home = () => {
   return (
     <div className="home-container row ">
-      <div className="col-md-6 sticky-top bg-white border-bottom border-5">
+      <div className="col-md-6 sticky-top border-bottom border-5">
         <About />
       </div>
       <div className="col-md-6 custom-mt">

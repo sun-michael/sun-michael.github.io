@@ -2,6 +2,7 @@ import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as GithubIcon } from "../../assets/square-github.svg";
 import { ReactComponent as EmailIcon } from "../../assets/square-envelope-solid.svg";
 
+import ConfettiButton from "../confetti/confetti.component";
 import "./about.styles.scss";
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
           PDF RESUME
         </a>
       </div>
-      <div className="col-sm-6 m-5">
+      <div className="col-sm-6 my-5">
         <div class="d-flex justify-content-evenly">
           <a
             href="https://www.linkedin.com/in/michael-sun-4978937a/"
@@ -46,6 +47,11 @@ const About = () => {
           <a href="mailto:sun.m710@gmail.com" className="links">
             <EmailIcon style={{ width: "30px", height: "30px" }} />
           </a>
+        </div>
+      </div>
+      <div className="col-sm-6 my-5">
+        <div class="d-flex justify-content-evenly">
+          <ConfettiButton />
         </div>
       </div>
     </div>

@@ -3,7 +3,8 @@ import zillowImage from "../../assets/websites/zillow.png";
 import zillowImage2 from "../../assets/websites/zillow2.png";
 import dadjokesImage from "../../assets/websites/dadjokes.png";
 
-import Skill from "../skill/skill.components";
+import SkillList from "../skill-list/skill-list.components";
+import Button from "../button/button.component";
 
 const Details = () => {
   return (
@@ -19,17 +20,16 @@ const Details = () => {
           <div class="card mb-3 custom-no-border" id="list-item-1">
             <p class="card-text">
               In 2017, I ventured into web development, diving deep into the
-              world of coding and{" "}
+              world of coding and
               <span className="hover-effect"> full-stack development</span>.
               Today, I've had the privilege of building software for the
               aerospace industry and a Fortune Global corporation.
             </p>
             <p class="card-text">
               Currently, my primary focus is on developing scalable web
-              applications using{" "}
+              applications using
               <span className="hover-effect">
-                {" "}
-                React with Redux Hooks and GraphQL{" "}
+                React with Redux Hooks and GraphQL
               </span>
               .
             </p>
@@ -40,12 +40,12 @@ const Details = () => {
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
                 <div class="col-md-2">
-                  <p className="mt-3 text-body-secondary">2021-2024</p>
+                  <p className="mt-3 text-body-secondary">2023-2024</p>
                   {/* <img src="..." class="img-fluid rounded-start" alt="..." /> */}
                 </div>
                 <div class="col-md-10 ">
                   <div class="card-body">
-                    <h5 class="card-title">Software Developer</h5>
+                    <h5 class="card-title">Senior Software Developer</h5>
                     <p className="text-body-secondary">
                       @Lumen Technologies (formerly CenturyLink)
                     </p>
@@ -58,28 +58,92 @@ const Details = () => {
                       review.
                     </p>
                     <p className="card-text">
-                      <div className="">
-                        <a href="https://www.ctl.io" target="_blank">
-                          ctl.io
-                        </a>
-                      </div>
-                      <div>
-                        <a href="https://www.lumen.com/login/" target="_blank">
-                          lumen.com
-                        </a>
-                      </div>
+                      <h5>Project Links</h5>
+                      <Button href="https://www.ctl.io" name="ctl.io" />
+                      <Button
+                        href="https://onramp-ui.ctl.io/#!/login"
+                        name="onramp.com"
+                      />
+                      <Button
+                        href="https://www.lumen.com/login/"
+                        name="lumen.com"
+                      />
                     </p>
-                    <Skill skill="HTML" />
-                    <Skill skill="SCSS/SASS" />
-                    <Skill skill="JavaScript" />
-                    <Skill skill="TypeScript" />
-                    <Skill skill="jQuery" />
-                    <Skill skill="Node.js" />
-                    <Skill skill="Express" />
-                    <Skill skill="AWS" />
-                    <Skill skill="SQL" />
-                    <Skill skill="Papertrail" />
-                    <Skill skill="Vue.js" />
+                    <h5>Technologies</h5>
+                    <SkillList
+                      skills={[
+                        "HTML",
+                        "Scss",
+                        "JavaScript",
+                        "TypeScript",
+                        "Vue.js",
+                        "AWS",
+                        "Papertrail",
+                        "Azure",
+                      ]}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 custom-no-border">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <p className="mt-3 text-body-secondary">2021-2023</p>
+                  {/* <img src="..." class="img-fluid rounded-start" alt="..." /> */}
+                </div>
+                <div class="col-md-10 ">
+                  <div class="card-body">
+                    <h5 class="card-title">Software Developer</h5>
+                    <p className="text-body-secondary">
+                      @Lumen Technologies(Apex Systems)
+                    </p>
+                    <p class="card-text">
+                      Improved user interface with a focus on mobile-first and
+                      responsive design for ctl.io and onramp-ui.ctl.io web
+                      applications, enhancing the in-house CMS to boost customer
+                      activation process and enhance fraud detection service.
+                      Implemented an automated Microsoft Teams notification
+                      system for new signups at ctl.io, resulting in reduced
+                      response times and increased efficiency for the sales
+                      team. Improved the Vue.js and Chai test code for the Lumen
+                      Bare Metal service customer login page, reducing
+                      inconsistent login times and standardizing the UI
+                      experience.
+                    </p>
+                    <p className="card-text">
+                      <h5>Project Links</h5>
+                      <Button href="https://www.ctl.io" name="ctl.io" />
+                      <Button
+                        href="https://onramp-ui.ctl.io/#!/login"
+                        name="onramp.com"
+                      />
+                      <Button
+                        href="https://www.lumen.com/login/"
+                        name="lumen.com"
+                      />
+                    </p>
+
+                    <h5>Technologies</h5>
+
+                    <SkillList
+                      skills={[
+                        "HTML",
+                        "JavaScript",
+                        "jQuery",
+                        "Node.js",
+                        "Axios",
+                        "Gulp",
+                        "AngularJS",
+                        "Loopback",
+                        "MySQL",
+                        "GitHub",
+                        "Jenkins",
+                        "Jira",
+                        "Confluence",
+                        "Nexus",
+                      ]}
+                    />
                   </div>
                 </div>
               </div>
@@ -103,8 +167,14 @@ const Details = () => {
                       developers to clean up code and enhance logging for
                       real-time data tracking in a .NET and C# web applications.
                     </p>
-                    <Skill skill="C#" />
-                    <Skill skill=".NET" />
+                    <p className="card-text">
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://www.lmiaerospace.com/"
+                        name="lmiaerospace"
+                      />
+                    </p>
+                    <SkillList skills={["C#", ".NET"]} />
                   </div>
                 </div>
               </div>
@@ -133,10 +203,21 @@ const Details = () => {
                       in Publication section).
                     </p>
 
-                    <Skill skill="ComputerVision" />
-                    <Skill skill="Linux" />
-                    <Skill skill="Python" />
-                    <Skill skill="MachineLearning" />
+                    <p className="card-text">
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://openprairie.sdstate.edu/etd/3937/"
+                        name="AI-image progessing"
+                      />
+                    </p>
+                    <SkillList
+                      skills={[
+                        "ComputerVision",
+                        "Linux",
+                        "Python",
+                        "MachineLearning",
+                      ]}
+                    />
                   </div>
                 </div>
               </div>
@@ -163,8 +244,7 @@ const Details = () => {
                       and grading assignments for a C++ programming course.
                     </p>
 
-                    <Skill skill="C" />
-                    <Skill skill="C++" />
+                    <SkillList skills={["C", "C++"]} />
                   </div>
                 </div>
               </div>
@@ -205,21 +285,24 @@ const Details = () => {
                       A version 2 of the ongoing Zillow project where the
                       customer can purchase service online.
                     </p>
+
                     <p className="card-text">
-                      <div className="">
-                        <a
-                          href="https://github.com/sun-michael/primitiveZillow2.0"
-                          target="_blank"
-                        >
-                          https://github.com/sun-michael/primitiveZillow2.0
-                        </a>
-                      </div>
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://zillowv2.netlify.app"
+                        name="Zillow V2"
+                      />
                     </p>
-                    <Skill skill="JavaScript" />
-                    <Skill skill="SASS" />
-                    <Skill skill="FunctionalComponent" />
-                    <Skill skill="Hooks" />
-                    <Skill skill="GoogleFirebase" />
+
+                    <SkillList
+                      skills={[
+                        "JavaScript",
+                        "Sass",
+                        "FunctionalComponent",
+                        "Hooks",
+                        "GoogleFirebase",
+                      ]}
+                    />
                   </div>
                 </div>
               </div>
@@ -251,22 +334,25 @@ const Details = () => {
                       delete rental posts just like on Zillow. The site is
                       deployed on Render for accessibility and operational use.
                     </p>
+
                     <p className="card-text">
-                      <div className="">
-                        <a
-                          href="https://primitivezillow.onrender.com"
-                          target="_blank"
-                        >
-                          https://primitivezillow.onrender.com
-                        </a>
-                      </div>
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://primitive-zillow.vercel.app"
+                        name="Zillow V1"
+                      />
                     </p>
-                    <Skill skill="JavaScript" />
-                    <Skill skill="Node.js" />
-                    <Skill skill="Express" />
-                    <Skill skill="MongoDB" />
-                    <Skill skill="MapBox" />
-                    <Skill skill="GoogleFirebase" />
+
+                    <SkillList
+                      skills={[
+                        "JavaScript",
+                        "Node.js",
+                        "Express",
+                        "MongoDB",
+                        "MapBox",
+                        "GoogleFirebase",
+                      ]}
+                    />
                   </div>
                 </div>
               </div>
@@ -292,36 +378,31 @@ const Details = () => {
                       Developed a React web application that allows users to
                       search for dad jokes based on their input.
                     </p>
+
                     <p className="card-text">
-                      <div className="">
-                        <a
-                          href="https://class-component.onrender.com"
-                          target="_blank"
-                        >
-                          https://class-component.onrender.com
-                        </a>
-                      </div>
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://class-component-five.vercel.app"
+                        name="Search Dad Jokes"
+                      />
                     </p>
-                    <Skill skill="React" />
-                    <Skill skill="ClassComponent" />
+                    <SkillList skills={["React", "ClassComponent"]} />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="">
-          <div class="card mb-3 custom-no-border" id="list-item-4">
-            <div class="d-grid gap-2 col-6 mx-auto">
-              <a
-                class="btn btn-outline-primary"
-                type="button"
-                href="https://sun-michael.github.io/portfolio/resume.pdf"
-                target="_blank"
-              >
-                Download Resume
-              </a>
-            </div>
+        <div class="card mb-3 custom-no-border" id="list-item-4">
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <a
+              class="btn btn-outline-primary"
+              type="button"
+              href="https://sun-michael.github.io/portfolio/resume.pdf"
+              target="_blank"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
 
