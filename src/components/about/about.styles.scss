@@ -11,15 +11,15 @@
   }
   .list-group-item.active {
     color: #F0FFFF;
-    background-color:#FF6347;
-    border-color: #FF6347;
+    background-color:#ff0000;
+    border-color: #ff0000;
   }
   .list-group {
     --bs-list-group-border-width: none;
   }
 
   .about-container:hover #full-name {
-    color: #FF6347
+    color: #ff0000
   }
   #list-example {
     border-radius: 0px;

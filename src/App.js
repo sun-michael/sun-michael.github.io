@@ -3,8 +3,10 @@ import Home from "./components/home/home.component";
 
 const App = () => {
   return (
-    <div className="container custom-margin">
-      <Home />
+    <div>
+      <div className="container custom-margin">
+        <Home />
+      </div>
     </div>
   );
 };
