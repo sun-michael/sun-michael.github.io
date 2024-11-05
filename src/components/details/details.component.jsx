@@ -19,19 +19,31 @@ const Details = () => {
         <div className="custom-vh-70">
           <div class="card mb-3 custom-no-border" id="list-item-1">
             <p class="card-text">
-              In 2017, I ventured into web development, diving deep into the
-              world of coding and
-              <span className="hover-effect"> full-stack development</span>.
-              Today, I've had the privilege of building software for the
-              aerospace industry and a Fortune Global corporation.
+              In 2021, I embarked on a thrilling adventure into the world of
+              software development. With each line of code I wrote, I found
+              myself diving deeper into the fascinating universe of
+              <span className="hover-effect"> fullstack development</span>. This
+              journey has led me to incredible opportunities, including
+              developing software for the high-flying aerospace industry and a
+              renowned Fortune Global 500 corporation.
             </p>
-            <p class="card-text">
-              Currently, my primary focus is on developing scalable web
+            <p className="card-text">
+              Every project I tackled taught me something new, refining my
+              skills and igniting my passion for creating seamless digital
+              experiences. Today, my focus is on building scalable web
               applications using
               <span className="hover-effect">
-                React with Redux Hooks and GraphQL
+                {" "}
+                React with Redux Hooks and GraphQL.
               </span>
-              .
+              I thrive on the challenge of crafting intuitive and accessible
+              user interfaces that resonate with users.
+            </p>
+            <p class="card-text">
+              Inspired by the vision of my FutureSelf (Benjamin Hardy), I strive
+              to deliver innovative solutions that push the boundaries of what's
+              possible in
+              <span className="hover-effect"> web development.</span>
             </p>
           </div>
         </div>
@@ -45,7 +57,7 @@ const Details = () => {
                 </div>
                 <div class="col-md-10 ">
                   <div class="card-body">
-                    <h5 class="card-title">Senior Software Developer</h5>
+                    <h5 class="card-title">Sr Software Developer</h5>
                     <p className="text-body-secondary">
                       @Lumen Technologies (formerly CenturyLink)
                     </p>
@@ -94,10 +106,8 @@ const Details = () => {
                 </div>
                 <div class="col-md-10 ">
                   <div class="card-body">
-                    <h5 class="card-title">Software Developer</h5>
-                    <p className="text-body-secondary">
-                      @Lumen Technologies(Apex Systems)
-                    </p>
+                    <h5 class="card-title">Fullstack Developer</h5>
+                    <p className="text-body-secondary">@Lumen Technologies</p>
                     <p class="card-text">
                       Improved user interface with a focus on mobile-first and
                       responsive design for ctl.io and onramp-ui.ctl.io web
@@ -171,7 +181,7 @@ const Details = () => {
                       <h5>Project Links</h5>
                       <Button
                         href="https://www.lmiaerospace.com/"
-                        name="lmiaerospace"
+                        name="lmiaerospace.com"
                       />
                     </p>
                     <SkillList skills={["C#", ".NET"]} />
@@ -207,7 +217,7 @@ const Details = () => {
                       <h5>Project Links</h5>
                       <Button
                         href="https://openprairie.sdstate.edu/etd/3937/"
-                        name="AI-image progessing"
+                        name="AI-image processing"
                       />
                     </p>
                     <SkillList
@@ -396,7 +406,7 @@ const Details = () => {
         <div class="card mb-3 custom-no-border" id="list-item-4">
           <div class="d-grid gap-2 col-6 mx-auto">
             <a
-              class="btn btn-outline-primary"
+              class="btn btn btn-outline-danger"
               type="button"
               href="https://sun-michael.github.io/portfolio/resume.pdf"
               target="_blank"

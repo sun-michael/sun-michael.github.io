@@ -40,7 +40,7 @@ const ConfettiButton = () => {
   //   return <button onClick={handleClick}>If you like confetti</button>;
   return (
     <button onClick={handleClick} className="btn btn-outline-dark">
-      happy-button
+      Cheer Button
     </button>
   );
 };
