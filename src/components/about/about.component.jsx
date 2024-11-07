@@ -10,9 +10,9 @@ const About = () => {
       <h1 className="fw-bold">
         Michael <span id="full-name">Sun</span>
       </h1>
-      <h5 className="mb-4">Frontend+Fullstack Developer</h5>
+      <h5 className="mb-4 d-none d-md-block">Frontend+Fullstack Developer</h5>
 
-      <div className="col-6 text-body-secondary">
+      <div className="col-6 d-none d-md-block text-body-secondary">
         I bring simple, engaging, and accessible digital experiences.
       </div>
       <div id="list-example" class="list-group mt-5 col-5">
@@ -29,7 +29,7 @@ const About = () => {
           PDF RESUME
         </a>
       </div>
-      <div className="col-sm-6 my-5">
+      <div className="col-sm-6 my-5 d-none d-md-block">
         <div class="d-flex justify-content-evenly">
           <a
             href="https://www.linkedin.com/in/michael-sun-4978937a/"

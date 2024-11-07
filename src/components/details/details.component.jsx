@@ -16,7 +16,7 @@ const Details = () => {
         class="scrollspy-example"
         tabindex="0"
       >
-        <div className="custom-vh-70">
+        <div className="">
           <div class="card mb-3 custom-no-border" id="list-item-1">
             <p class="card-text">
               In 2021, I embarked on a thrilling adventure into the world of
@@ -233,7 +233,7 @@ const Details = () => {
               </div>
             </div>
 
-            <div class="card mb-3 custom-no-border custom-vh-70">
+            <div class="card mb-3 custom-no-border ">
               <div class="row g-0">
                 <div class="col-md-2">
                   <p id="list-item-1" className="mt-3 text-body-secondary">
@@ -261,7 +261,7 @@ const Details = () => {
             </div>
           </div>
         </div>
-        {/* <div className="custom-vh-70">
+        {/* <div className="">
           <div class="card mb-3 custom-no-border" id="list-item-3">
             <p class="card-text">
               Back in 2017, I decided to try my hand at web development
@@ -367,7 +367,7 @@ const Details = () => {
                 </div>
               </div>
             </div>
-            <div class="card mb-3 custom-no-border  custom-vh-70">
+            <div class="card mb-3 custom-no-border  ">
               <div class="row g-0">
                 <div class="col-md-2">
                   <p className="mt-3 text-body-secondary">2024.06</p>
