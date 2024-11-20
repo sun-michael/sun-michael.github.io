@@ -52,7 +52,7 @@ const Details = () => {
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
                 <div class="col-md-2">
-                  <p className="mt-3 text-body-secondary">2023-2024</p>
+                  <p className="mt-3 text-body-secondary ">2023-2024</p>
                   {/* <img src="..." class="img-fluid rounded-start" alt="..." /> */}
                 </div>
                 <div class="col-md-10 ">
