@@ -90,8 +90,8 @@ const Details = () => {
                         "TypeScript",
                         "Vue.js",
                         "AWS",
-                        "Papertrail",
                         "Azure",
+                        "Papertrail",
                       ]}
                     />
                   </div>
@@ -277,7 +277,7 @@ const Details = () => {
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
                 <div class="col-md-2">
-                  <p className="mt-3 text-body-secondary">2024.07</p>
+                  <p className="mt-3 text-body-secondary">2024</p>
 
                   <img
                     src={zillowImage2}
@@ -320,7 +320,7 @@ const Details = () => {
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
                 <div class="col-md-2">
-                  <p className="mt-3 text-body-secondary">2024.06</p>
+                  <p className="mt-3 text-body-secondary">2024</p>
 
                   <img
                     src={zillowImage}
@@ -370,7 +370,7 @@ const Details = () => {
             <div class="card mb-3 custom-no-border  ">
               <div class="row g-0">
                 <div class="col-md-2">
-                  <p className="mt-3 text-body-secondary">2024.06</p>
+                  <p className="mt-3 text-body-secondary">2024</p>
 
                   <img
                     src={dadjokesImage}

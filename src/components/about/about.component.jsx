@@ -8,31 +8,43 @@ import ConfettiWithImages from "../confetti-logo/confetti-logo.component";
 import "./about.styles.scss";
 const About = () => {
   return (
-    <div className="about-container sticky-top name-mt mb-3">
+    <div className="about-container sticky-top name-mt mb-3 custom-px">
       <h1 className="fw-bold">
         Michael <span id="full-name">Sun</span>
       </h1>
-      <h5 className="mb-4 d-none d-md-block">Frontend+Fullstack Developer</h5>
+      <h5 className="mb-4 d-none d-md-block">Frontend + Fullstack Developer</h5>
 
       <div className="col-6 d-none d-md-block text-body-secondary">
         I bring simple, engaging, and accessible digital experiences.
       </div>
-      <div id="list-example" class="list-group mt-5 col-5">
-        <a class="list-group-item list-group-item-action" href="#list-item-1">
+      <div id="list-example" className="list-group mt-5 col-5">
+        <a
+          className="list-group-item list-group-item-action"
+          href="#list-item-1"
+        >
           ABOUT
         </a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">
+        <a
+          className="list-group-item list-group-item-action"
+          href="#list-item-2"
+        >
           EXPERIENCE
         </a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">
+        <a
+          className="list-group-item list-group-item-action"
+          href="#list-item-3"
+        >
           PROJECTS
         </a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">
+        <a
+          className="list-group-item list-group-item-action"
+          href="#list-item-4"
+        >
           PDF RESUME
         </a>
       </div>
       <div className="col-sm-6 my-5 d-none d-md-block">
-        <div class="d-flex justify-content-evenly">
+        <div className="d-flex justify-content-evenly">
           <a
             href="https://www.linkedin.com/in/michael-sun-4978937a/"
             target="_blank"
@@ -55,7 +67,7 @@ const About = () => {
       <div className="col-sm-6 my-5">
         <div class="d-flex justify-content-evenly">
           <ConfettiButton />
-          <ConfettiWithImages />
+          {/* <ConfettiWithImages /> */}
         </div>
       </div>
     </div>
