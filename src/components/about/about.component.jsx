@@ -3,6 +3,7 @@ import { ReactComponent as GithubIcon } from "../../assets/square-github.svg";
 import { ReactComponent as EmailIcon } from "../../assets/square-envelope-solid.svg";
 
 import ConfettiButton from "../confetti/confetti.component";
+import ConfettiThanksgiving from "../confetti-thanksgiving/confetti-thanksgiving.component";
 import ConfettiWithImages from "../confetti-logo/confetti-logo.component";
 
 import "./about.styles.scss";
@@ -66,7 +67,8 @@ const About = () => {
       </div>
       <div className="col-sm-6 my-5">
         <div class="d-flex justify-content-evenly">
-          <ConfettiButton />
+          {/* <ConfettiButton /> */}
+          <ConfettiThanksgiving />
           {/* <ConfettiWithImages /> */}
         </div>
       </div>
