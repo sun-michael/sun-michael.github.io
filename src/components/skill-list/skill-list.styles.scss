@@ -1,0 +1,10 @@
+.skill-list-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+
+    .badge {
+        background-color: #86A3B8; 
+
+    }
+}
