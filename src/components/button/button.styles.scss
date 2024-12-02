@@ -1,0 +1,12 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px; 
+    padding: 5px
+  }
+  
+  .btn-light:hover { 
+    color: white; 
+    background-color: #86A3B8; 
+    border-color: #86A3B8; 
+  }
