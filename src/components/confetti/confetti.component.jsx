@@ -39,8 +39,8 @@ const ConfettiButton = () => {
 
   //   return <button onClick={handleClick}>If you like confetti</button>;
   return (
-    <button onClick={handleClick} className="btn btn-outline-dark">
-      Cheer Button
+    <button onClick={handleClick} className="btn btn-outline-warning">
+      Celebrate 2025 with me!
     </button>
   );
 };

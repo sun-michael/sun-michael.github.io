@@ -67,8 +67,8 @@ const About = () => {
       </div>
       <div className="col-sm-6 my-5">
         <div class="d-flex justify-content-evenly">
-          {/* <ConfettiButton /> */}
-          <ConfettiThanksgiving />
+          <ConfettiButton />
+          {/* <ConfettiThanksgiving /> */}
           {/* <ConfettiWithImages /> */}
         </div>
       </div>

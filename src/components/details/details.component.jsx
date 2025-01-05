@@ -9,6 +9,8 @@ import Button from "../button/button.component";
 const Details = () => {
   return (
     <div class="col-10">
+      <hr class="border border-danger border-2 opacity-50" />
+
       <div
         data-bs-spy="scroll"
         data-bs-target="#list-example"
@@ -19,35 +21,41 @@ const Details = () => {
         <div className="">
           <div class="card mb-3 custom-no-border" id="list-item-1">
             <p class="card-text">
-              In 2021, I embarked on a thrilling adventure into the world of
-              software development. With each line of code I wrote, I found
-              myself diving deeper into the fascinating universe of
-              <span className="hover-effect"> fullstack development</span>. This
-              journey has led me to incredible opportunities, including
-              developing software for the high-flying aerospace industry and a
-              renowned Fortune Global 500 corporation.
-            </p>
-            <p className="card-text">
-              Every project I tackled taught me something new, refining my
-              skills and igniting my passion for creating seamless digital
-              experiences. Today, my focus is on building scalable web
-              applications using
+              My journey into software development began in 2021 and has been
+              nothing short of exciting. I’ve delved into the fascinating world
+              of full-stack development, line by line, unraveling its
+              complexities. This path has led to some incredible opportunities,
+              such as working on{" "}
               <span className="hover-effect">
-                {" "}
-                React with Redux Hooks and GraphQL.
+                software for the aerospace industry and contributing to a
+                Fortune Global 500 company.
               </span>
-              I thrive on the challenge of crafting intuitive and accessible
-              user interfaces that resonate with users.
             </p>
             <p class="card-text">
-              Inspired by the vision of my FutureSelf (Benjamin Hardy), I strive
-              to deliver innovative solutions that push the boundaries of what's
-              possible in
-              <span className="hover-effect"> web development.</span>
+              With each project, I’ve not only honed my skills but also deepened
+              my passion for creating seamless digital experiences. My current
+              focus is on crafting scalable web applications using{" "}
+              <span className="hover-effect">
+                React, Redux, Hooks, JS, Typesript and GraphQL.
+              </span>
+              The challenge of building intuitive, accessible user interfaces is
+              something I thrive on.
+            </p>
+            <p class="card-text">
+              Inspired by Benjamin Hardy’s Future Self book, I am committed to
+              pushing the limits of web development and delivering innovative
+              solutions.{" "}
+              <span className="hover-effect">
+                My approach to discipline is multifaceted. I maintain a exercise
+                routine, constantly challenge myself with new projects, and
+                embrace traveling as a means to broaden my horizons.
+              </span>
             </p>
           </div>
         </div>
         <div className="">
+          <hr class="border border-danger border-2 opacity-50" />
+
           <div id="list-item-2">
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
@@ -273,6 +281,7 @@ const Details = () => {
           </div>
         </div> */}
         <div className="">
+          <hr class="border border-danger border-2 opacity-50" />
           <div id="list-item-3">
             <div class="card mb-3 custom-no-border">
               <div class="row g-0">
@@ -403,6 +412,8 @@ const Details = () => {
             </div>
           </div>
         </div>
+        <hr class="border border-danger border-2 opacity-50" />
+
         <div class="card mb-3 custom-no-border" id="list-item-4">
           <div class="d-grid gap-2 col-6 mx-auto">
             <a
