@@ -33,7 +33,7 @@ const ConfettiThanksgiving = () => {
 
   return (
     <button onClick={handleClick} class="btn btn-outline-warning">
-      Click! If you like Thanksgiving 🍁
+      Click to Gobble Up Some Festive Confetti 🦃🍁{" "}
     </button>
   );
 };

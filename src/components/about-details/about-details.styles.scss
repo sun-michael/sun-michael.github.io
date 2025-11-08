@@ -1,0 +1,5 @@
+.about-detail-container {
+    position: sticky;
+    top: 50%;              /* stick relative to the middle */
+    transform: translateY(-50%); 
+}

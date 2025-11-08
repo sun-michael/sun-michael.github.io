@@ -21,43 +21,103 @@ const Details = () => {
         <div className="">
           <div class="card mb-3 custom-no-border" id="list-item-1">
             <p class="card-text">
-              My journey into software development began in 2021 and has been
-              nothing short of exciting. I’ve delved into the fascinating world
-              of full-stack development, line by line, unraveling its
-              complexities. This path has led to some incredible opportunities,
-              such as working on{" "}
+              My journey into software development began in 2021, and it has
+              been a dynamic mix of challenge and discovery. From building
+              full‑stack applications line by line to architecting scalable
+              solutions, I’ve embraced the complexities of modern web
+              development with enthusiasm. Along the way, I’ve contributed to
+              projects in the{" "}
+              <span className="hover-effect">aerospace industry </span> and
+              delivered software at scale for a{" "}
               <span className="hover-effect">
-                software for the aerospace industry and contributing to a
-                Fortune Global 500 company.
+                {" "}
+                telecommunication & technologies
               </span>
+              , experiences that sharpened both my technical expertise and my
+              ability to deliver in high‑stakes environments.
             </p>
             <p class="card-text">
-              With each project, I’ve not only honed my skills but also deepened
-              my passion for creating seamless digital experiences. My current
-              focus is on crafting scalable web applications using{" "}
+              Today, my focus is on scalable, high‑performance web applications
+              built with{" "}
               <span className="hover-effect">
-                React, Redux, Hooks, JS, Typesript and GraphQL.
+                React, Redux, Hooks, TypeScript, and GraphQL{" "}
               </span>
-              The challenge of building intuitive, accessible user interfaces is
-              something I thrive on.
+              . I thrive on designing{" "}
+              <span className="hover-effect">
+                intuitive, accessible user interfaces{" "}
+              </span>
+              that transform complex systems into seamless digital experiences.{" "}
             </p>
             <p class="card-text">
-              Inspired by Benjamin Hardy’s Future Self book, I am committed to
-              pushing the limits of web development and delivering innovative
-              solutions.{" "}
-              <span className="hover-effect">
-                My approach to discipline is multifaceted. I maintain a exercise
-                routine, constantly challenge myself with new projects, and
-                embrace traveling as a means to broaden my horizons.
-              </span>
+              Beyond the code, I draw inspiration from Benjamin Hardy’s Future
+              Self, which fuels my commitment to continuous growth. Discipline
+              for me is holistic: I maintain a consistent exercise routine,
+              challenge myself with new technical projects, and explore the
+              world through travel—each habit broadening my perspective and
+              sharpening my creativity.
+            </p>
+            <p class="card-text">
+              I’m currently seeking software engineering opportunities in{" "}
+              <span className="hover-effect">New York City </span>or
+              <span className="hover-effect"> New Jersey</span>, where I can
+              contribute to innovative teams and continue pushing the boundaries
+              of web development.
             </p>
           </div>
         </div>
+
         <div className="">
           <hr class="border border-danger border-2 opacity-50" />
 
           <div id="list-item-2">
             <div class="card mb-3 custom-no-border">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <p className="mt-3 text-body-secondary ">2025-current</p>
+                  {/* <img src="..." class="img-fluid rounded-start" alt="..." /> */}
+                </div>
+                <div class="col-md-10 ">
+                  <div class="card-body">
+                    <h5 class="card-title">Web Developer & Analyst</h5>
+                    <p className="text-body-secondary">@self‑employed</p>
+                    <p class="card-text">
+                      Proactively launched and delivered self‑employed software
+                      projects, taking full ownership from concept to deployment
+                      while balancing technical execution with client needs and
+                      driving scalable, user‑focused solutions.
+                    </p>
+                    <p className="card-text">
+                      <h5>Project Links</h5>
+                      <Button
+                        href="https://zillowv2.netlify.app"
+                        name="Online shopping customer demo"
+                      />
+                      <Button
+                        href="https://primitive-zillow.vercel.app"
+                        name="Customer demo"
+                      />
+                    </p>
+                    <h5>Technologies</h5>
+                    <SkillList
+                      skills={[
+                        "JavaScript",
+                        "Sass",
+                        "FunctionalComponent",
+                        "Hooks",
+                        "GoogleFirebase",
+                        "JavaScript",
+                        "Node.js",
+                        "Express",
+                        "MongoDB",
+                        "MapBox",
+                        "GoogleFirebase",
+                        "React",
+                        "ClassComponent",
+                      ]}
+                    />
+                  </div>
+                </div>
+              </div>
               <div class="row g-0">
                 <div class="col-md-2">
                   <p className="mt-3 text-body-secondary ">2023-2024</p>
