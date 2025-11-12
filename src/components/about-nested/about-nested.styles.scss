@@ -1,0 +1,10 @@
+.nav-link.active {
+  color: #F0FFFF;
+  background-color:#F55050 !important;
+  border-color: #F55050 !important;
+}
+.scrollspy-example-2 {
+  position: relative;   /* required for ScrollSpy */
+  height: 80vh;         /* make it tall enough */
+  overflow: auto;       /* enable scrolling */
+}

@@ -1,4 +1,5 @@
 import About from "../about/about.component";
+import AboutNested from "../about-nested/about-nested.component";
 import Details from "../details/details.component";
 import ConfettiWithImages from "../confetti-logo/confetti-logo.component";
 import "./home.styles.scss";
@@ -8,27 +9,15 @@ const Home = () => {
   return (
     <div className="home-container row">
       <ConfettiWithImages />
-      <div className="col-md-5 sticky-top bg-white bg-md-transparent">
-        <About />
+      <div className="col-md-4 sticky-top bg-white bg-md-transparent">
+        {/* <About /> */}
       </div>
-
-      {/* <div className="col-md-6 sticky-top bg-transparent d-none d-md-block">
-        <About />
+      <div className="col-md-4 sticky-top bg-white bg-md-transparent">
+        <AboutNested />
       </div>
-      <div className="col-md-6 sticky-top bg-white d-block d-md-none">
-        <About />
+      {/* <div className="col-md-4 sticky-top bg-white bg-md-transparent">
       </div> */}
-      {/* <div className="col-md-6 sticky-top bg-light d-md-none">
-        <About />
-      </div>
-
-      <div className="col-md-6 sticky-top bg-transparent d-none d-md-block">
-        <About />
-      </div> */}
-      {/* <div className="col-md-6 sticky-top bg-light">
-        <About />
-      </div> */}
-      <div className="col-md-7 custom-mt">
+      <div className="col-md-4 custom-mt">
         <Details />
       </div>
     </div>

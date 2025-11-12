@@ -141,7 +141,7 @@ const Details = () => {
                       <h5>Project Links</h5>
                       <Button href="https://www.ctl.io" name="ctl.io" />
                       <Button
-                        href="https://onramp-ui.ctl.io/#!/login"
+                        href="https://onramp-ui.ctl.io"
                         name="onramp.com"
                       />
                       <Button
@@ -193,7 +193,7 @@ const Details = () => {
                       <h5>Project Links</h5>
                       <Button href="https://www.ctl.io" name="ctl.io" />
                       <Button
-                        href="https://onramp-ui.ctl.io/#!/login"
+                        href="https://onramp-ui.ctl.io"
                         name="onramp.com"
                       />
                       <Button
